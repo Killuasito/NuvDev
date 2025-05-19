@@ -46,7 +46,7 @@ export default function Footer() {
               Links Rápidos
             </h3>
             <ul className="space-y-3">
-              {["Sobre", "Serviços", "Portfólio", "Contato"].map((item) => (
+              {["Sobre", "Serviços", "Portfólio"].map((item) => (
                 <li key={item}>
                   <a
                     href={`/#${item.toLowerCase()}`}

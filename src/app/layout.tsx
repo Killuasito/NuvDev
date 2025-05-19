@@ -8,6 +8,22 @@ export const metadata = {
   title: "NuvDev",
   description:
     "Soluções digitais modernas para web e mobile com foco em performance e inovação.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "32x32",
+      },
+      {
+        url: "/icon.png",
+        sizes: "192x192",
+      },
+    ],
+    apple: {
+      url: "/apple-icon.png",
+      sizes: "180x180",
+    },
+  },
 };
 
 export default function RootLayout({

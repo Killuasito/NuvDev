@@ -3,11 +3,13 @@
 import Link from "next/link";
 import { useAuth } from "@/lib/auth";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation"; // Add this import
 
 export default function Header() {
   const { user, logout } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const router = useRouter(); // Add this
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,7 +24,6 @@ export default function Header() {
       { href: "/#about", label: "Sobre" },
       { href: "/#services", label: "Serviços" },
       { href: "/#portfolio", label: "Portfólio" },
-      { href: "/#contact", label: "Contato" },
     ];
 
     if (user) {
@@ -30,6 +31,11 @@ export default function Header() {
     }
 
     return baseItems;
+  };
+
+  const handleLogout = async () => {
+    await logout();
+    router.push("/");
   };
 
   return (
@@ -92,7 +98,7 @@ export default function Header() {
                     </Link>
                   )}
                   <button
-                    onClick={() => logout()}
+                    onClick={handleLogout}
                     className="bg-blue-600/10 text-blue-400 px-4 py-2 rounded-lg border border-blue-500/20
                       hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-105"
                   >
@@ -178,7 +184,7 @@ export default function Header() {
                 )}
                 <button
                   onClick={() => {
-                    logout();
+                    handleLogout();
                     setIsOpen(false);
                   }}
                   className="w-full bg-blue-600/10 text-blue-400 px-4 py-3 rounded-lg 

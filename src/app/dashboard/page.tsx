@@ -14,15 +14,20 @@ import { Quote } from "@/types";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 import { FaClock, FaCheck, FaTimes } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 export default function UserDashboard() {
+  const router = useRouter();
+  const { user } = useAuth();
   const [quotes, setQuotes] = useState<Quote[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const { user } = useAuth();
 
   useEffect(() => {
-    if (!user) return;
+    if (!user) {
+      router.push('/');
+      return;
+    }
 
     const q = query(
       collection(db, "quotes"),
@@ -56,7 +61,7 @@ export default function UserDashboard() {
     );
 
     return () => unsubscribe();
-  }, [user]);
+  }, [user, router]);
 
   const getStatusDetails = (status: Quote["status"]) => {
     const details = {
