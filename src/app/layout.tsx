@@ -8,6 +8,9 @@ export const metadata = {
   title: "NuvDev",
   description:
     "Soluções digitais modernas para web e mobile com foco em performance e inovação.",
+  verification: {
+    google: "-4r2iewZn8RK5O560ZGA5G1Ftg2FcxO7T8URFxdyy5Y", // Adicione seu código do Google Search Console aqui
+  },
   icons: {
     icon: [
       {
