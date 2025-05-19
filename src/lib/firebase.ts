@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAW4JLMVePOhdMjAZghJtYdNlYTkncC1_o",
+  authDomain: "nuvdev-387cc.firebaseapp.com",
+  projectId: "nuvdev-387cc",
+  storageBucket: "nuvdev-387cc.firebasestorage.app",
+  messagingSenderId: "473194577162",
+  appId: "1:473194577162:web:7e1abc8e286b36b29b4ef3",
 };
 
 // Initialize Firebase only if it hasn't been initialized already
