@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "standalone",
   images: {
+    unoptimized: true,
     domains: [
       "cdn0.peritoanimal.com.br",
       "exemplo.com",
