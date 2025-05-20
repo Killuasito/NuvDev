@@ -68,7 +68,11 @@ export default function Footer() {
             </h3>
             <div className="flex space-x-4">
               {[
-                { icon: FaInstagram, href: "#", label: "LinkedIn" },
+                {
+                  icon: FaInstagram,
+                  href: "https://www.instagram.com/nuvdev/p/DJ1_RTQOk4v/",
+                  label: "LinkedIn",
+                },
                 {
                   icon: FaGithub,
                   href: "https://github.com/Killuasito",
