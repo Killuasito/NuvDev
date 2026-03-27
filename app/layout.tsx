@@ -174,7 +174,7 @@ export const metadata: Metadata = {
     apple: "/Elephens.png",
   },
   verification: {
-    google: "-4r2iewZn8RK5O560ZGA5G1Ftg2FcxO7T8URFxdyy5Y",
+    google: "QCbYtgIh_Pf40DQET65zFbjpAQ6oP21IIWgfwjHBYZY",
   },
 };
 
