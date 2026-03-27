@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://nuvdev.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://elephens.vercel.app";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -18,11 +18,11 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": `${BASE_URL}/#organization`,
-      name: "NuvDev",
+      name: "Elephens",
       url: BASE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${BASE_URL}/NuvDev.png`,
+        url: `${BASE_URL}/Elephens.png`,
         width: 500,
         height: 500,
       },
@@ -36,8 +36,8 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": `${BASE_URL}/#localbusiness`,
-      name: "NuvDev — Modernização de Sistemas Legados",
-      image: `${BASE_URL}/NuvDev.png`,
+      name: "Elephens — Modernização de Sistemas Legados",
+      image: `${BASE_URL}/Elephens.png`,
       url: BASE_URL,
       telephone: "+55-11-93248-2402",
       email: "aquasferium@gmail.com",
@@ -74,7 +74,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${BASE_URL}/#website`,
       url: BASE_URL,
-      name: "NuvDev",
+      name: "Elephens",
       publisher: { "@id": `${BASE_URL}/#organization` },
       inLanguage: "pt-BR",
     },
@@ -87,7 +87,7 @@ const jsonLd = {
       areaServed: "Cotia, SP, Brasil",
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Serviços NuvDev",
+        name: "Serviços Elephens",
         itemListElement: [
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Modernização Incremental" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Dashboards de Indicadores" } },
@@ -102,8 +102,8 @@ const jsonLd = {
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "NuvDev | Modernização de Sistemas Legados — Cotia e Região",
-    template: "%s | NuvDev",
+    default: "Elephens | Modernização de Sistemas Legados — Cotia e Região",
+    template: "%s | Elephens",
   },
   description:
     "Transforme seu software antigo em uma plataforma moderna, na nuvem e mobile. Especialistas em modernização incremental para indústrias, logística e comércio em Cotia e região.",
@@ -122,10 +122,10 @@ export const metadata: Metadata = {
     "migração sistema legado",
     "integração WhatsApp Business",
     "landing page",
-    "NuvDev",
+    "Elephens",
   ],
-  authors: [{ name: "NuvDev", url: BASE_URL }],
-  creator: "NuvDev",
+  authors: [{ name: "Elephens", url: BASE_URL }],
+  creator: "Elephens",
   category: "Software Development",
   alternates: {
     canonical: BASE_URL,
@@ -145,33 +145,33 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "NuvDev — Modernização de Sistemas Legados",
+    title: "Elephens — Modernização de Sistemas Legados",
     description:
       "Modernizamos sistemas legados sem jogar nada fora. Dashboards, automação e nuvem para sua empresa em Cotia e região.",
     url: BASE_URL,
-    siteName: "NuvDev",
+    siteName: "Elephens",
     type: "website",
     locale: "pt_BR",
     images: [
       {
-        url: "/NuvDev.png",
+        url: "/Elephens.png",
         width: 500,
         height: 500,
-        alt: "NuvDev — Modernização de Sistemas Legados",
+        alt: "Elephens — Modernização de Sistemas Legados",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "NuvDev — Modernização de Sistemas Legados",
+    title: "Elephens — Modernização de Sistemas Legados",
     description:
       "Transforme seu software antigo em plataforma moderna. Dashboards, automação e nuvem para sua empresa.",
-    images: ["/NuvDev.png"],
+    images: ["/Elephens.png"],
   },
   icons: {
-    icon: "/NuvDev.png",
-    shortcut: "/NuvDev.png",
-    apple: "/NuvDev.png",
+    icon: "/Elephens.png",
+    shortcut: "/Elephens.png",
+    apple: "/Elephens.png",
   },
   verification: {
     google: "-4r2iewZn8RK5O560ZGA5G1Ftg2FcxO7T8URFxdyy5Y",

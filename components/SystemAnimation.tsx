@@ -127,7 +127,7 @@ export default function SystemAnimation() {
       await wait(900);
       if (dead) return;
 
-      // NuvDev card springs in
+      // Elephens card springs in
       setShowNuvDev(true);
       await wait(700);
       if (dead) return;
@@ -267,7 +267,7 @@ export default function SystemAnimation() {
                 <MdRocketLaunch className="text-nuvdev-cyan text-lg" />
               </div>
               <div>
-                <p className="text-xs font-bold text-white">NuvDev</p>
+                <p className="text-xs font-bold text-white">Elephens</p>
                 <p className="text-[11px] text-nuvdev-cyan">
                   Cloud • Mobile • Integrado
                 </p>

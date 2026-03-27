@@ -94,7 +94,7 @@ export default function ContrastSection() {
           </h2>
           <p className="text-nuvdev-text-muted text-lg">
             Veja a diferença entre continuar com o legado e dar o próximo passo
-            com a NuvDev.
+            com a Elephens.
           </p>
         </motion.div>
 
@@ -167,7 +167,7 @@ export default function ContrastSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-nuvdev-cyan">
-                    A Solução NuvDev
+                    A Solução Elephens
                   </h3>
                   <p className="text-sm text-nuvdev-text-muted">
                     Cloud • Mobile • Inteligente

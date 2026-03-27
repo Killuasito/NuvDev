@@ -5,7 +5,7 @@ import { HiOutlineLightningBolt } from "react-icons/hi";
 import { motion } from "framer-motion";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20agendar%20uma%20consultoria%20gratuita%20com%20a%20NuvDev.";
+  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20agendar%20uma%20consultoria%20gratuita%20com%20a%20Elephens.";
 
 export default function CTASection() {
   return (

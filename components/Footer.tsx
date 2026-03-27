@@ -10,7 +10,7 @@ import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 import Image from "next/image";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20NuvDev.";
+  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Elephens.";
 
 const footerLinks = {
   servicos: [
@@ -20,7 +20,7 @@ const footerLinks = {
     { label: "Chatbots de Vendas", href: "#servicos" },
   ],
   empresa: [
-    { label: "Sobre a NuvDev", href: "#diferencial" },
+    { label: "Sobre a Elephens", href: "#diferencial" },
     { label: "Nosso Processo", href: "#resultados" },
     { label: "Blog", href: "#" },
     { label: "Carreiras", href: "#" },
@@ -43,14 +43,14 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-2 lg:col-span-1">
             <a href="#inicio" className="flex items-center gap-2 mb-5">
               <Image
-                src="/NuvDev.png"
-                alt="NuvDev logo"
-                width={40}
-                height={40}
+                src="/Elephens.png"
+                alt="Elephens logo"
+                width={56}
+                height={56}
               />
               <span className="text-xl font-bold">
-                <span className="text-white">Nuv</span>
-                <span className="gradient-text">Dev</span>
+                <span className="text-white">Ele</span>
+                <span className="gradient-text">phens</span>
               </span>
             </a>
             <p className="text-sm text-nuvdev-text-muted leading-relaxed mb-6">
@@ -157,7 +157,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-nuvdev-border mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-nuvdev-text-muted">
-            © {new Date().getFullYear()} NuvDev. Todos os direitos reservados.
+            © {new Date().getFullYear()} Elephens. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-6">
             <a

@@ -14,7 +14,7 @@ const navLinks = [
 ];
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20agendar%20uma%20consultoria%20gratuita%20com%20a%20NuvDev.";
+  "https://wa.me/5511932482402?text=Olá!%20Gostaria%20de%20agendar%20uma%20consultoria%20gratuita%20com%20a%20Elephens.";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,19 +40,19 @@ export default function Header() {
           <a
             href="#inicio"
             className="flex items-center gap-2 group"
-            aria-label="NuvDev - Ir para o início"
+            aria-label="Elephens - Ir para o início"
           >
             <Image
-              src="/NuvDev.png"
-              alt="NuvDev logo"
-              width={40}
-              height={40}
+              src="/Elephens.png"
+              alt="Elephens logo"
+              width={64}
+              height={64}
               className="group-hover:drop-shadow-[0_0_8px_rgba(0,188,212,0.6)] transition-all"
               priority
             />
             <span className="text-xl font-bold">
-              <span className="text-white">Nuv</span>
-              <span className="gradient-text">Dev</span>
+              <span className="text-white">Ele</span>
+              <span className="gradient-text">phens</span>
             </span>
           </a>
 

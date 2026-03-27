@@ -128,7 +128,7 @@ function NewInterface() {
           >
             N
           </div>
-          <span className="text-sm font-semibold">NuvDev · Dashboard</span>
+          <span className="text-sm font-semibold">Elephens · Dashboard</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 rounded-full bg-emerald-400" style={{ boxShadow: "0 0 6px #34d399" }} />
@@ -344,7 +344,7 @@ export default function ComparisonSection() {
             <span className="gradient-text">ao painel dos sonhos</span>
           </h2>
           <p className="text-nuvdev-text-muted max-w-lg mx-auto text-sm sm:text-base">
-            Arraste a linha e veja como a NuvDev transforma sistemas legados em
+            Arraste a linha e veja como a Elephens transforma sistemas legados em
             interfaces modernas, rápidas e intuitivas.
           </p>
         </motion.div>

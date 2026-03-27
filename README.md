@@ -1,6 +1,6 @@
-# NuvDev — Landing Page
+# Elephens — Landing Page
 
-Site institucional da **NuvDev**, empresa especializada em modernização de sistemas legados e desenvolvimento web para pequenas e médias empresas brasileiras.
+Site institucional da **Elephens**, empresa especializada em modernização de sistemas legados e desenvolvimento web para pequenas e médias empresas brasileiras.
 
 ## Stack
 
@@ -19,7 +19,7 @@ Site institucional da **NuvDev**, empresa especializada em modernização de sis
 | `HeroSection` | Chamada principal com badges e CTA |
 | `ShowcaseSection` | Vitrine de projetos/casos de uso |
 | `ComparisonSection` | Comparativo antes/depois |
-| `ContrastSection` | Diferenciais da NuvDev |
+| `ContrastSection` | Diferenciais da Elephens |
 | `ServicesSection` | Serviços: Modernização, Dashboards, Automação, Suporte |
 | `LocalSection` | Atendimento regional |
 | `ProofSection` | Depoimentos e provas sociais |
