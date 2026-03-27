@@ -18,7 +18,7 @@ function OldInterface() {
   ];
 
   return (
-    <div className="w-full h-full bg-[#d4d0c8] font-mono text-[10px] select-none">
+    <div className="w-full h-full bg-[#d4d0c8] font-mono text-[10px] text-black select-none">
       {/* Title bar */}
       <div className="flex items-center justify-between bg-linear-to-r from-[#003c74] to-[#428fd8] px-2 py-0.75">
         <span className="text-white text-[10px] font-bold truncate">
@@ -82,7 +82,8 @@ function OldInterface() {
                     className={`border border-[#d4d0c8] px-1 py-0.5 whitespace-nowrap ${
                       cell === "ERRO!"   ? "text-red-600 font-bold bg-yellow-100" :
                       cell === "VENCIDO" ? "text-orange-600" :
-                      cell === "INATIVO" ? "text-gray-400" : ""
+                      cell === "PENDENTE" ? "text-yellow-600" :
+                      cell === "INATIVO" ? "text-blue-700" : ""
                     }`}
                   >
                     {cell}
