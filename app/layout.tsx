@@ -174,7 +174,7 @@ export const metadata: Metadata = {
     apple: "/NuvDev.png",
   },
   verification: {
-    // google: "cole-aqui-o-codigo-do-google-search-console",
+    google: "-4r2iewZn8RK5O560ZGA5G1Ftg2FcxO7T8URFxdyy5Y",
   },
 };
 
