@@ -1,5 +1,7 @@
 # Elephens — Landing Page
 
+![Elephens logo](/Elephens.png)
+
 Site institucional da **Elephens**, empresa especializada em modernização de sistemas legados e desenvolvimento web para pequenas e médias empresas brasileiras.
 
 ## Stack
@@ -25,6 +27,10 @@ Site institucional da **Elephens**, empresa especializada em modernização de s
 | `ProofSection` | Depoimentos e provas sociais |
 | `CTASection` | Chamada de ação final |
 | `Footer` | Rodapé com links |
+
+---
+
+Sobre a marca: **Elephens** é a nova identidade da empresa — um símbolo que representa força, memória e confiança. O site demonstra como transformamos sistemas legados em experiências modernas e rápidas.
 
 ## Rodando localmente
 
